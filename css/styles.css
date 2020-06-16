@@ -1,0 +1,135 @@
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #ff7070;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #dc5151;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+span {
+  text-decoration: underline;
+}
+
+hr {
+  border-color: #fbc687;
+  border-style: dotted none none;
+  width: 8%;
+  border-width: 10px;
+  margin: 100px auto;
+}
+
+.footer-link {
+  color: #fbc687;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #ff7088;
+}
+
+p {
+  line-height: 2;
+}
+
+.subtitle {
+  color: #11999E;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #fef2bf;
+  /* padding-top: 100px; */
+  padding: 14%;
+}
+
+.front-end-img {
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+  margin: 100px 0;
+}
+
+.profile-pic {
+  width: 200px;
+}
+
+.Bio {
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #fef2bf;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.html-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.css-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #11999E;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  margin-top: 20px;
+	box-shadow:inset 0 1px 0 0 #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d95ed;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
