@@ -110,8 +110,8 @@ p {
 }
 
 .mainsite-img, .project1-img, .wordpress-img {
-  width: 50%;
-  float: left;
+  width: 100%;
+  clear: left;
   margin-right: 30px;
 }
 
