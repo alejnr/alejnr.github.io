@@ -127,16 +127,16 @@ hr {
 .button {
   margin: 30px;
   margin-bottom: 100px;
-}
-
-.social {
-  color: #fbceaa !important;
-  margin: 10px 20px;
   background-color: #dc5151;
 }
 
 .button:hover {
   background-color: #ff7070;
+}
+
+.social {
+  color: #fbceaa !important;
+  margin: 10px 20px;
 }
 
 .social:hover {
