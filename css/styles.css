@@ -96,6 +96,10 @@ hr {
   line-height: 2;
 }
 
+.skill-box {
+  margin-top: 60px;
+}
+
 .row {
   margin: 100px auto 100px auto;
 }
@@ -127,6 +131,11 @@ hr {
 .button {
   margin: 30px;
   margin-bottom: 100px;
+  background-color: #dc5151;
+}
+
+.button:hover {
+  background-color: #ff7070 !important;
 }
 
 .social {
