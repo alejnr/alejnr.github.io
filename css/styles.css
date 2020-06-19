@@ -96,6 +96,10 @@ hr {
   line-height: 2;
 }
 
+.skill-box {
+  margin-top: 60px;
+}
+
 .row {
   margin: 100px auto 100px auto;
 }
