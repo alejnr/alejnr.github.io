@@ -161,7 +161,7 @@ a:hover{ text-decoration: none }
 a:hover .btn { text-decoration: none }
 .btn:hover { text-decoration: none }
 
-.btn {
+.buttons {
   margin: 5px 10px;
 }
 
