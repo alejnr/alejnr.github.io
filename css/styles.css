@@ -104,6 +104,10 @@ hr {
   margin: 100px auto 100px auto;
 }
 
+.discription {
+  text-align: left;
+}
+
 .logo {
   transition: all .5s;
   margin-bottom: 1rem;
