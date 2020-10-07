@@ -1,41 +1,10 @@
-body {
-  color: #40514e;
-  margin: 0;
-  text-align: center;
-  font-family: "Nunito", sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-h1 {
-  margin: 100px 0 0;
-  font-family: "Nunito", sans-serif;
-  font-size: 6rem;
-  color: #fff;
-}
-
-h2 {
-  color: #00adb5;
-  font-size: 30px;
-}
-
-h2 img {
+h3 img {
   width: 30px;
   margin-left: 10px;
-}
-
-h3 {
-  color: #66bfbf;
-}
-
-a {
-  color: #66bfbf;
-  text-decoration: none;
-}
-
-hr {
-  border-style: dotted none none;
-  border-width: 5px;
-  width: 60px;
-  opacity: 0.1;
 }
 
 i {
@@ -45,26 +14,39 @@ i {
   font-size: 50px !important;
 }
 
+p a {
+  text-decoration: none !important;
+}
+
+::selection {
+  color: #eeeeee;
+  background: #1D7097;
+}
+
+::-moz-selection {
+  color: #eeeeee;
+  background: #1D7097;
+}
+
+.navbar-brand {
+  font-size: 20px !important;
+  text-transform: uppercase;
+}
+
+ul li a {
+  font-weight: bold;
+}
+
 i:hover {
   opacity: 0.5;
 }
 
-.hero {
-  background-color: #000000;
-  background-image: -webkit-linear-gradient(bottom right,
-      #000000 0%,
-      #414141 74%);
-  background-image: -o-linear-gradient(bottom right, #000000 0%, #414141 74%);
-  background-image: linear-gradient(to top left, #000000 0%, #414141 74%);
-  padding: 100px;
-  height: 60vh;
+.work h4 {
+  margin: 150px;
 }
 
-.sub-title {
-  margin: 0;
-  font-size: 1.25rem;
-  font-weight: normal;
-  color: #fff;
+.card-body {
+  background-color: #060606;
 }
 
 .profile {
@@ -140,19 +122,20 @@ i:hover {
   margin: 0;
 }
 
-.btn {
+.button {
   color: #eeeeee;
-  background-color: #00adb5;
+  background-color: #1D7097;
   border-radius: 5px;
   padding: 15px 32px;
   font-weight: bold;
   transition-duration: 0.4s;
 }
 
-.btn:hover {
+.button:hover {
   background-color: Transparent;
-  border: 2px solid #00adb5;
-  color: #222831;
+  border: 2px solid #1D7097;
+  color: #eeeeee;
+  text-decoration: none;
 }
 
 .footer-link {
@@ -165,14 +148,6 @@ i:hover {
 }
 
 @media (max-width: 992px) {
-  .hero {
-    height: 20vh;
-  }
-
-  h1 {
-    font-size: 400%;
-    margin: 0;
-  }
 
   h2 {
     font-size: 25px;
@@ -180,10 +155,6 @@ i:hover {
 
   i {
     font-size: 40px !important;
-  }
-
-  .sub-title {
-    font-size: 18px;
   }
 
   .profile-img {
@@ -219,36 +190,8 @@ i:hover {
     margin-top: 20px;
   }
 
-  .btn {
+  .button {
     padding: 10px 20px;
-  }
-}
-
-@media (max-width: 461px) {
-  .hero {
-    height: 10vh;
-  }
-
-  h1 {
-    font-size: 300%;
-  }
-
-  .sub-title {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 375px) {
-  .hero {
-    height: 10vh;
-  }
-
-  h1 {
-    font-size: 200%;
-  }
-
-  .sub-title {
-    font-size: 15px;
   }
 }
 
@@ -273,4 +216,8 @@ i:hover {
 
 #top-btn:hover {
   opacity: 1;
+}
+
+noscript h1 {
+  padding: 250px 100px 0;
 }
