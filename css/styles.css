@@ -7,6 +7,14 @@ h3 img {
   margin-left: 10px;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+.pt {
+  cursor: pointer;
+}
+
 i {
   color: #eeeeee;
   margin-top: 20px;
