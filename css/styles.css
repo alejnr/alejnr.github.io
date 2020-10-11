@@ -5,6 +5,7 @@ html {
 h3 img {
   width: 30px;
   margin-left: 10px;
+  pointer-events: none;
 }
 
 a {
@@ -64,6 +65,7 @@ i:hover {
 
 .profile-img {
   width: 150px;
+  pointer-events: none;
 }
 
 .skills img {
@@ -220,6 +222,7 @@ i:hover {
 
 #top-btn img {
   width: 35%;
+  pointer-events: none;
 }
 
 #top-btn:hover {
