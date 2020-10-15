@@ -153,7 +153,7 @@ i:hover {
 }
 
 .copyright {
-  font-size: 15px;
+  font-size: 15px !important;
   margin-top: 30px;
 }
 
