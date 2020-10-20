@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XTGXHJL2N4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  
+  <head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XTGXHJL2N4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
+  
   gtag('config', 'G-XTGXHJL2N4');
-</script>
+  </script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="keywords"
-    content="Alex Menlah, Alex, Menlah, web developer, front end developer, websites, freelance, developer, wordpress">
+  content="Alex Menlah, Alex, Menlah, web developer, front end developer, websites, freelance, developer, wordpress">
   <meta name="description" content="The portfolio of Alex Menlah, a Student / Web Developer based in Italy, Parma.">
   <meta name="robots" content="index, follow" />
 
@@ -24,22 +24,37 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-
+  
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-
+  
   <link rel="shortcut icon" href="images/favicon.ico">
 </head>
 
 <body>
 
+  <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-top"></div>
+        <div class="loader-section section-bottom">
+          <noscript>
+            <div class="container pt-5">
+              <h4 class="pt-5">You need to enable JavaScript to view this page. Here are the 
+              <a target="_blank" href="https://www.enable-javascript.com/">
+              instructions how to enable JavaScript in your web browser</a>.</h4>
+            </div>
+          </noscript>
+        </div>
+    </div>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="/">Alex Menlah</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" 
+              aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
@@ -60,8 +75,6 @@
         </nav>
     </header>
 
-    <noscript><h1>You need to enable JavaScript to view this page.</h1></noscript>
-
   <div class="middle-container">
 
     <div class="profile">
@@ -75,7 +88,7 @@
 
    <div id="work" class="work text-center dark-bg p-10px">
     <h2 data-aos="zoom-in" class="mt-100px">My Work.</h2>
-    <p data-aos="zoom-in" data-aos-delay="200">Here are some of my projects I've finished working on.</p>
+    <div class="container"><p data-aos="zoom-in" data-aos-delay="200">Here are some of my projects I've finished working on.</p></div>
     
   <div class="container">
     <div class="row py-4 row-cols-1 row-cols-md-12">
@@ -85,7 +98,9 @@
           <a href="images/stonkersMeme.PNG" target="_blank"><img src="images/stonkersMeme.PNG" class="card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title">Maestro Stonks</h5>
-            <p class="card-text">This is the official website page of <a class="hvr-underline-from-left" href="https://maestrostonks.tk/" target="_blank" rel="noopener noreferrer">Maestro Stonks</a> built by me.</p>
+            <p class="card-text">This is the official website page of 
+              <a class="hvr-underline-from-left" href="https://maestrostonks.tk/" 
+              target="_blank" rel="noopener noreferrer">Maestro Stonks</a> built for a client.</p>
           </div>
         </div>
       </div>
@@ -127,13 +142,15 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="form_name">First Name *</label>
-                    <input type="text" name="_name" class="form-control" placeholder="Please enter your first name" required="required">
+                    <input type="text" name="_name" class="form-control" 
+                    placeholder="Please enter your first name" required="required">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="form_name">Last Name *</label>
-                    <input type="text" name="_surname" class="form-control" placeholder="Please enter your last name" required="required">
+                    <input type="text" name="_surname" class="form-control" 
+                    placeholder="Please enter your last name" required="required">
                   </div>
                 </div>
               </div>
@@ -141,13 +158,15 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label>Your E-mail *</label>
-                    <input type="email" name="_replyto" class="form-control" placeholder="Please enter your email" required="required">
+                    <input type="email" name="_replyto" class="form-control" 
+                    placeholder="Please enter your email" required="required">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label>Subject</label>
-                    <input name="_need" class="form-control" placeholder="Please enter your subject">
+                    <input name="_need" class="form-control" 
+                    placeholder="Please enter your subject">
                   </div>
                 </div>
               </div>
@@ -155,7 +174,8 @@
                 <div class="col-md-12">
                   <div class="form-group">
                     <label>Your Message *</label>
-                    <textarea name="_message" class="form-control" placeholder="Write your message..." rows="4" required="required"></textarea>
+                    <textarea name="_message" class="form-control" 
+                    placeholder="Write your message..." rows="4" required="required"></textarea>
                   </div>
                 </div>
               </div>
@@ -178,9 +198,9 @@
     </div>
   </div>
 
-  <button onclick="topFunction()" id="top-btn" title="Back to top" class="hvr-icon-up"><img
-      src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/white-up-pointing-index_261d.png" class="hvr-icon"
-      alt="top-emoji"></button>
+  <button onclick="topFunction()" id="top-btn" title="Back to top" class="hvr-icon-up">
+    <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/white-up-pointing-index_261d.png" 
+    class="hvr-icon" alt="top-emoji"></button>
 
   <footer class="text-center">
     <div data-aos="fade-up" class="bottom-container dark-bg">
@@ -203,6 +223,21 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- *********************************************
+         _   _              _   _                   _
+        | | | | ___ _   _  | |_| |__   ___ _ __ ___| |
+        | |_| |/ _ \ | | | | __| '_ \ / _ \ '__/ _ \ |
+        |  _  |  __/ |_| | | |_| | | |  __/ | |  __/_|
+        |_| |_|\___|\__, |  \__|_| |_|\___|_|  \___(_)
+                    |___/
+
+        Lookin' at the source code huh?
+        Be sure to drop me a line!
+
+        - Alex Menlah
+
+        ********************************************** -->
 
 </body>
 </html>
