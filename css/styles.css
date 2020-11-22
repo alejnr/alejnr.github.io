@@ -203,6 +203,10 @@ i:hover {
   .button {
     padding: 10px 20px;
   }
+  
+  .s-m > h2 {
+    font-size: 30px;
+  }
 }
 
 #top-btn {
