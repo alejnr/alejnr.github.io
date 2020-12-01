@@ -54,4 +54,17 @@ document.onreadystatechange = function() {
   } 
 };
 
+// Sticy navbar
+
+const nav = document.querySelector('#nav')
+window.addEventListener('scroll', fixNav)
+
+function fixNav() {
+    if(window.scrollY) {
+        nav.classList.add('fixed-top')
+    } else {
+        nav.classList.remove('fixed-top')
+    }
+}
+
 
