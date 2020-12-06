@@ -3,13 +3,14 @@
   
   <head>
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XTGXHJL2N4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  
-  gtag('config', 'G-XTGXHJL2N4');
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XFXV6NHWYX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XFXV6NHWYX');
   </script>
 
   <meta charset="utf-8">
@@ -31,7 +32,7 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   
-  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -83,8 +84,8 @@
       <h3 data-aos="zoom-in" data-aos-delay="200" class="hvr-icon-buzz-out">Hello! <img
           src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/waving-hand-sign_1f44b.png" class="hvr-icon"
           alt="wave-emoji"></h3>
-      <p data-aos="zoom-in" data-aos-delay="300">I'm <mark>Alex Menlah</mark> a student /
-        web developer based in Italy, Parma. I have a passion for Web Development.</p>
+      <p class="animate" data-aos="zoom-in" data-aos-delay="300">I'm <mark>Alex Menlah</mark> a student /
+        web developer based in Italy, Parma. I have passion for Web Development.</p>
     </div>
 
     <div id="work" class="work text-center dark-bg p-10px">
@@ -94,29 +95,18 @@
     <div class="row py-4 row-cols-1 row-cols-md-3">
       
       <div class="col mb-4">
-        <div data-aos="zoom-in" data-aos-delay="300" class="card">
+        <div data-aos="zoom-in" data-aos-delay="300" class="card animate">
           <a href="images/newsletter-signup.png" target="_blank"><img src="images/newsletter-signup.png" class="card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title"><a class="hvr-underline-from-left" href="https://www.menlahnewsletter.ga/" 
               target="_blank" rel="noopener noreferrer">Newsletter Signup Form</a></h5>
-            <p class="card-text">Newsletter emails collector <br /> built with Nodejs and Mailchimp API</p>
+            <p class="card-text">Newsletter emails collector built with Nodejs and Mailchimp API</p>
           </div>
         </div>
       </div>
       
       <div class="col mb-4">
-        <div data-aos="zoom-in" data-aos-delay="350" class="card">
-          <a href="images/netflix-frontend.png" target="_blank"><img src="images/netflix-frontend.png" class="card-img-top" alt="..."></a>
-          <div class="card-body">
-            <h5 class="card-title"><a class="hvr-underline-from-left" href="https://netflix-frontend.web.app/" 
-              target="_blank" rel="noopener noreferrer">Netflix Frontend</a></h5>
-            <p class="card-text">Netflix official website <br /> front-end built with React and Movie API</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col mb-4">
-        <div data-aos="zoom-in" data-aos-delay="400" class="card">
+        <div data-aos="zoom-in" data-aos-delay="400" class="card animate">
           <a href="images/menlahshop.png" target="_blank"><img src="images/menlahshop.png" class="card-img-top" alt="..."></a>
           <div class="card-body">
             <h5 class="card-title"><a class="hvr-underline-from-left" href="https://www.menlahshopapp.ga/" 
@@ -126,6 +116,18 @@
         </div>
       </div>
       
+      <div class="col mb-4">
+        <div data-aos="zoom-in" data-aos-delay="350" class="card animate">
+          <a href="images/moreMovies.png" target="_blank"><img src="images/moreMovies.png" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title"><a class="hvr-underline-from-left" href="https://www.moremoviess.ga/" 
+              target="_blank" rel="noopener noreferrer">More Movies</a></h5>
+            <p class="card-text">Movies website built with Nodejs and themoviedb API</p>
+          </div>
+        </div>
+      </div>
+      
+      
     </div>
   </div>
 
@@ -133,21 +135,21 @@
 
     <div id="contact"></div>
     <div class="contact-me">
-      <h2 data-aos="zoom-in" data-aos-delay="100">Get In Touch</h2>
-      <h3 data-aos="zoom-in" data-aos-delay="200">I'm Available For Freelancing</h3>
-      <p data-aos="zoom-in" data-aos-delay="300">Design what you want, I like to keep it simple & Develop what you
+      <h2 class="animate" data-aos="zoom-in" data-aos-delay="100">Get In Touch</h2>
+      <h3 class="animate" data-aos="zoom-in" data-aos-delay="200">I'm Available For Freelancing</h3>
+      <p class="animate" data-aos="zoom-in" data-aos-delay="300">Design what you want, I like to keep it simple & Develop what you
         need, using the latest
         technologies.</p>
 
-      <div data-aos="zoom-in" data-aos-delay="300"><a href="#" class="button pt"data-toggle="modal" data-target="#exampleModal">CONTACT ME</a>
+      <div data-aos="zoom-in" data-aos-delay="300"><a href="#" class="button pt animate" data-toggle="modal" data-target="#contactModal">CONTACT ME</a>
     </div>
   </div>
   
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+          <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
