@@ -82,13 +82,13 @@ $(document).ready(function() {
     $("#contact-form").validate({
 		messages: {
 		
-		    name: {
+      _name: {
     			required: 'Please enter your name'
 			},
-			email: {
+			_replyto: {
 				required: 'Please enter your email'
 			},			
-			message: {
+			_message: {
 				required: 'Please enter your message'
 			}
 			
