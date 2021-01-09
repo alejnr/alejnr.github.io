@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
@@ -11,7 +10,6 @@ p {
   margin-bottom: 15px;
   line-height: 1.5;
 }
-
 
 a:active {
   text-decoration: none;
@@ -31,6 +29,23 @@ a:focus {
 
 .fs-40px {
   font-size: 40px;
+}
+
+.underline {
+  border-bottom: 5px solid;
+  padding-bottom: 10px;
+  width: 20%;
+  margin: auto;
+  color: #2a9fd6;
+}
+
+.badge-bg {
+  background-color: #2a9fd6;
+}
+
+.active {
+  border-bottom: 3px solid;
+  border-color: #2a9fd6;
 }
 
 .profile {
@@ -59,23 +74,19 @@ a:focus {
   text-decoration: none;
 }
 
-i {
+.social {
   color: #eeeeee;
   transition-duration: 0.4s;
   font-size: 30px !important;
   padding-left: 5px;
 }
 
-i:hover {
+.social:hover {
   opacity: 0.5;
 }
 
-.overlay-bg {
-  background: rgba(49, 52, 58, 0.9) !important;
-}
-
 .black-bg {
-  background-color:#060606 !important;
+  background-color: #060606 !important;
 }
 
 .dark-bg {
@@ -108,11 +119,6 @@ i:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.header.header-scrolled a {
-  transition: all 0.3s ease-in-out;
-  color: #fff;
-}
-
 .header.header-scrolled .logo {
   transition: all 0.3s ease-in-out;
   padding-top: 12px;
@@ -124,21 +130,8 @@ i:hover {
   margin-right: 0;
 }
 
-.header.header-scrolled .main-nav .nav .nav-link {
-  color: #a2a6af;
-}
-
-.header.header-scrolled .main-nav .nav .nav-link:hover {
-  color: #fff;
-}
-
-.header.header-scrolled .main-nav .nav .nav-link.active {
-  color: #fff;
-}
-
 .header a {
   color: #fff;
-  
 }
 
 .header a:hover {
@@ -322,7 +315,6 @@ i:hover {
   .contact-section p {
     margin-bottom: 60px;
   }
-  
 }
 
 /* Loading code, copied from somewhere */
