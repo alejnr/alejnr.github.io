@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://alexmenlah.com/sitemap.xml
+Host: https://alexmenlah.com/
