@@ -1,70 +1,57 @@
+document.getElementById('currentYear').innerHTML = new Date().getFullYear()
 
-AOS.init();
+document.onreadystatechange = function () {
+  if (document.readyState !== 'complete') {
+    document.querySelector('body').style.visibility = 'hidden'
+    document.querySelector('#loader-wrapper').style.visibility = 'visible'
+  } else {
+    document.querySelector('#loader-wrapper').style.display = 'none'
+    document.querySelector('body').style.visibility = 'visible'
+  }
+}
 
-document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+$(window).bind('load', function () {
+  if ($(window).scrollTop() > 0) {
+    $('#header').addClass('header-scrolled')
+  } else {
+    $('#header').removeClass('header-scrolled')
+  }
+})
 
+$(document).ready(function () {
+  $(window).bind('scroll resize', function () {
+    if ($(window).scrollTop() > 0) {
+      $('#header').addClass('header-scrolled')
+    } else {
+      $('#header').removeClass('header-scrolled')
+    }
+  })
 
-document.onreadystatechange = function() { 
-    if (document.readyState !== "complete") { 
-        document.querySelector("body").style.visibility = "hidden"; 
-        document.querySelector("#loader-wrapper").style.visibility = "visible"; 
-    } else { 
-        document.querySelector("#loader-wrapper").style.display = "none"; 
-        document.querySelector("body").style.visibility = "visible"; 
-    } 
-};
-    
-$(window).bind('load', function() {
-     if ($(window).scrollTop() > 0) {
-         $('#header').addClass('header-scrolled');
-     }
-     else {
-         $('#header').removeClass('header-scrolled');
-     }
-});
+  $('body').scrollspy({ target: '#header', offset: 100 })
 
-$(document).ready(function() {
+  $('a.scrollto').on('click', function (e) {
+    var target = this.hash
 
-    
-    $(window).bind('scroll resize', function() {
-         if ($(window).scrollTop() > 0) {
-             $('#header').addClass('header-scrolled');
-         }
-         else {
-             $('#header').removeClass('header-scrolled');
-         }
-    });
-    
+    e.preventDefault()
 
-    $('body').scrollspy({ target: '#header', offset: 100});
-    
+    $('body').scrollTo(target, 800, { offset: -50, axis: 'y' })
 
-    $('a.scrollto').on('click', function(e){
-        
+    if ($('.navbar-collapse').hasClass('show')) {
+      $('.navbar-collapse').removeClass('show')
+    }
+  })
+})
 
-        var target = this.hash;
-                
-        e.preventDefault();
-        
-		$('body').scrollTo(target, 800, {offset: -50, 'axis':'y'});
-
-		if ($('.navbar-collapse').hasClass('show')){
-			$('.navbar-collapse').removeClass('show');
-		}
-		
-	});
-});
-
-var mybutton = document.getElementById("top-btn");
+var mybutton = document.getElementById('top-btn')
 window.onscroll = function () {
-  scrollFunction();
-};
+  scrollFunction()
+}
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    mybutton.style.display = 'block'
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = 'none'
   }
 }
 
@@ -72,28 +59,22 @@ function topFunction() {
   window.scrollTo({
     top: 0,
     left: 0,
-    behavior: "smooth",
-  });
-};
+    behavior: 'smooth',
+  })
+}
 
-
-$(document).ready(function() {
-	  
-    $("#contact-form").validate({
-		messages: {
-		
+$(document).ready(function () {
+  $('#contact-form').validate({
+    messages: {
       _name: {
-    			required: 'Please enter your name'
-			},
-			_replyto: {
-				required: 'Please enter your email'
-			},			
-			_message: {
-				required: 'Please enter your message'
-			}
-			
-		}
-		
-	});
-    
-});
+        required: 'Please enter your name',
+      },
+      _replyto: {
+        required: 'Please enter your email',
+      },
+      _message: {
+        required: 'Please enter your message',
+      },
+    },
+  })
+})
