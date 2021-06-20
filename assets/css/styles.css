@@ -313,6 +313,9 @@ a:focus {
   .logo {
     width: 200px;
   }
+  .card-img-top {
+    position: static;
+  }
   .profile-img {
     width: 100px;
   }
