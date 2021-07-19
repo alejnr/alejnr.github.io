@@ -87,11 +87,6 @@ a:focus {
   padding-top: 10px;
 }
 
-.card-img-top {
-  position: relative;
-  top: -100px;
-}
-
 .black-bg {
   background-color: #060606 !important;
 }
@@ -312,9 +307,6 @@ a:focus {
   }
   .logo {
     width: 200px;
-  }
-  .card-img-top {
-    position: static;
   }
   .profile-img {
     width: 100px;
